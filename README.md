@@ -105,6 +105,27 @@ The API Characer Schema codifies the following parameters from the database:
 Direct GET requests to the API endpoint
 ```localhost:3000/characters/```
 
+Direct GET requests with character ID to return individual character from the API endpoint
+```localhost:3000/characters/:id```
+
+Post:
+
+This will post a character to the API endpoint:
+
+
+```{
+        "_id": "635158a89715e82a884b4170",
+        "name": "Bob",
+        "height": "167",
+        "mass": "75",
+        "hair_color": "n/a",
+        "skin_color": "gold",
+        "eye_color": "yellow",
+        "birth_year": "112BBY",
+        "gender": "n/a",
+        "__v": 0
+    },
+```
 TO Delete a character, submit a Delete character request to the API endpoint:
 
 ```localhost:3000/characters/:id```
