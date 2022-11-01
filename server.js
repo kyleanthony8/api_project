@@ -22,14 +22,14 @@ app.use('/', routes);
 //
 
 
-app.listen(port, () => console.log(`app listening on port ${port}`))
+// app.listen(port, () => console.log(`app listening on port ${port}`))
 //
 
 
 //ROUTES
-app.get('/', (req, res) => {
-  ListCollectionsCursor.find({}).then()
-})
+// app.get('/', (req, res) => {
+//   ListCollectionsCursor.find({}).then()
+// })
 
 //CLEARS TERMINAL + CONNECTS DB
 db.on('connected', () => {
